@@ -1,3 +1,55 @@
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
+/*
+===================
+!!!!! 設定資料 !!!!!
+===================
+*/
+
+// BS5 Functions
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 我的 variables ( Design System )
+// @import "./scss/setting/variables";
+
+// BS5 Variables、variables-dark
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+
+// BS5  Map
+@import "../../node_modules/bootstrap/scss/maps";
+// 我的 Maps
+// @import "./scss/setting/maps";
+
+// BS5 Mixins
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// BS5 root
+@import "../../node_modules/bootstrap/scss/root";
+
+// BS5 Utilities
+@import "../../node_modules/bootstrap/scss/utilities";
+// 我的 Utilities
+// @import "./scss/utilities/utilities";
+
+/*
+=====================
+!!!!! 產生 class !!!!!
+=====================
+*/
+
+// BS5 Reboot
+@import "../../node_modules/bootstrap/scss/reboot";
+// 我的 Reset
+// @import "./scss/reset/reset";
+
+// BS5 Components ( 另外統整 )
+@import "./components/boostrap_components";
+
+// 我的 Mixins(使用bs5的mixins)
+
+// BS5 Utilities API
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+// 我的 pages
+@import "./components/header.scss";
+@import "./components/footer.scss";
 @import "./pages/index.scss";

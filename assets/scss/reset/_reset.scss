@@ -1,0 +1,37 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: $lh-1p5;
+  color: $brand-color-black;
+  letter-spacing: $ls-5;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: $brand-color-black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
