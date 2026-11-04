@@ -1,0 +1,62 @@
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "primary-120": $primary-120,
+    "primary-100": $primary-100,
+    "primary-80": $primary-80,
+    "primary-60": $primary-60,
+    "primary-40": $primary-40,
+    "primary-10": $primary-10,
+    "semantic-success-120": $semantic-success-120,
+    "semantic-success-100": $semantic-success-100,
+    "semantic-success-20": $semantic-success-20,
+    "semantic-success-10": $semantic-success-10,
+    "semantic-info-120": $semantic-info-120,
+    "semantic-info-100": $semantic-info-100,
+    "semantic-info-20": $semantic-info-20,
+    "semantic-info-10": $semantic-info-10,
+    "semantic-alert-120": $semantic-alert-120,
+    "semantic-alert-100": $semantic-alert-100,
+    "semantic-alert-20": $semantic-alert-20,
+    "semantic-alert-10": $semantic-alert-10,
+    "neutral-100": $neutral-100,
+    "neutral-80": $neutral-80,
+    "neutral-60": $neutral-60,
+    "neutral-40": $neutral-40,
+    "neutral-15": $neutral-15,
+    "neutral-10": $neutral-10,
+    "neutral-0": $neutral-0,
+  )
+);
+
+$font-sizes: map-merge(
+  $font-sizes,
+  (
+    // 12px
+    7: $fs-7,
+    // 14px
+    8: $fs-8,
+    // 48px
+    9: $fs-9,
+    // 72px
+    10: $fs-10
+  )
+);
+
+// BS5 沒有 maps
+$line-height: (
+  1: 1,
+  // 1.5
+  sm: $line-height-sm,
+  // 1.25
+  base: $line-height-base,
+  // 2
+  lg: $line-height-lg,
+  // 1.2
+  md: $line-height-md,
+);
+
+// BS5 沒有 maps
+$letter-spacing: (
+  2: $letter-sapcing-2,
+);

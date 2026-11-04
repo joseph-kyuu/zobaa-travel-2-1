@@ -1,0 +1,15 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "line-height": (
+      property: line-height,
+      class: lh,
+      values: $line-height,
+    ),
+    "letter-spacing": (
+      property: letter-spacing,
+      class: ls,
+      values: $letter-spacing,
+    ),
+  )
+);

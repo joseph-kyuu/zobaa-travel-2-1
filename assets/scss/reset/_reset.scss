@@ -1,14 +1,14 @@
 body {
-  font-family: "Noto Sans", sans-serif;
-  line-height: $lh-1p5;
-  color: $brand-color-black;
-  letter-spacing: $ls-5;
+  // font-family: "Noto Sans", sans-serif;
+  line-height: $line-height-base;
+  color: $primary-100;
+  letter-spacing: $letter-sapcing-2;
 }
 
 a {
   text-decoration: none;
   display: block;
-  color: $brand-color-black;
+  // color: $brand-color-black;
 }
 
 img {
