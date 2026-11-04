@@ -1,0 +1,120 @@
+/* 
+  ===============
+  !!!!! BS5 Options !!!!!
+  ===============
+*/
+
+// 關閉 響應式字體
+$enable-rfs: false;
+
+// 關閉 !important
+$enable-important-utilities: false;
+
+// 開啟負值 margin
+$enable-negative-margins: true;
+
+// $font-size-base,因為這裡就要先用到，所以需要先設定
+$font-size-base: 1rem;
+
+/* 
+  ===============
+  !!!!! 字體 !!!!!
+  ===============
+*/
+
+$font-family-sans-serif:
+  "Noto Sans",
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  sans-serif;
+
+/* 
+  ===============
+  !!!!! 顏色 !!!!!
+  ===============
+*/
+
+/*
+===========
+Primary
+===========
+*/
+
+$primary-120: #2b211c;
+$primary-100: #4a3830;
+$primary-80: #886658;
+$primary-60: #a37f71;
+$primary-40: #cbb6af;
+$primary-10: #f3eeec;
+
+/*
+===========
+Semantic
+===========
+*/
+
+/*!!!!! success !!!!!*/
+$semantic-success-120: #48970f;
+$semantic-success-100: #7cd31f;
+$semantic-success-20: #ddfaa5;
+$semantic-success-10: #f0fcd1;
+
+/*!!!!! info !!!!!*/
+$semantic-info-120: #1566b5;
+$semantic-info-100: #2aaffc;
+$semantic-info-20: #a9effe;
+$semantic-info-10: #d4f9fe;
+
+/*!!!!! alert !!!!!*/
+$semantic-alert-120: #b71d4f;
+$semantic-alert-100: #ff3a55;
+$semantic-alert-20: #ffbbb0;
+$semantic-alert-10: #ffe0d7;
+
+/*
+===========
+Neutral
+===========
+*/
+
+$neutral-100: #000000;
+$neutral-80: #4b4b4b;
+$neutral-60: #909090;
+$neutral-40: #ececec;
+$neutral-15: #f4f4f4;
+$neutral-10: #f9f9f9;
+$neutral-0: #ffffff;
+
+/* 
+  ===============
+  !!!!! 字級 !!!!!
+  ===============
+*/
+// $fs-1:40px
+// $fs-2:32px
+// $fs-3:28px
+// $fs-4:24px
+// $fs-5:20px
+// $fs-6:16px
+$fs-7: $font-size-base * 0.75; // 12px
+$fs-8: $font-size-base * 0.875; // 14px
+$fs-9: $font-size-base * 3; // 48px
+$fs-10: $font-size-base * 4.5; // 72px
+
+/* 
+  ===============
+  !!!!! line height !!!!!
+  ===============
+*/
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+$line-height-md: 1.2;
+
+/* 
+  ===============
+  !!!!! letter spacing !!!!!
+  ===============
+*/
+$letter-sapcing-2: 0.02em;
