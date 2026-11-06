@@ -45,7 +45,8 @@
 // BS5 Components ( 另外統整 )
 @import "./components/boostrap_components";
 
-// 我的 Mixins(使用bs5的mixins)
+// 我的 Components
+@import "./components/components";
 
 // BS5 Utilities API
 @import "../../node_modules/bootstrap/scss/utilities/api";
