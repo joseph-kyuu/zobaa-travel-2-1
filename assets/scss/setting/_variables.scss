@@ -16,6 +16,12 @@ $enable-negative-margins: true;
 // $font-size-base,因為這裡就要先用到，所以需要先設定
 $font-size-base: 1rem;
 
+// $spacer,因為這裡就要先用到，所以需要先設定
+$spacer-base: 1rem;
+
+// $radius
+$radius-base: 1rem;
+
 /* 
   ===============
   !!!!! 字體 !!!!!
@@ -104,6 +110,25 @@ $fs-10: $font-size-base * 4.5; // 72px
 
 /* 
   ===============
+  !!!!! spacing !!!!!
+  ===============
+*/
+$spacers: (
+  0: 0,
+  // 4px
+  1: $spacer-base * 0.25,
+  // 8px
+  2: $spacer-base * 0.5,
+  // 16px
+  3: $spacer-base,
+  // 24px
+  4: $spacer-base * 1.5,
+  // 48px
+  5: $spacer-base * 3,
+);
+
+/* 
+  ===============
   !!!!! line height !!!!!
   ===============
 */
@@ -118,3 +143,61 @@ $line-height-md: 1.2;
   ===============
 */
 $letter-sapcing-2: 0.02em;
+
+/* 
+  ===============
+  !!!!! radius !!!!!
+  ===============
+*/
+
+/* 
+  ===============
+  !!!!! btn !!!!!
+  ===============
+*/
+
+/*
+===========
+size
+===========
+*/
+
+$input-btn-padding-y: $spacer-base;
+$input-btn-padding-x: $spacer-base;
+
+$input-btn-padding-y-sm: $spacer-base * 0.75;
+$input-btn-padding-x-sm: $spacer-base;
+
+$input-btn-padding-y-lg: $spacer-base;
+$input-btn-padding-x-lg: $spacer-base * 2;
+
+/*
+===========
+radius
+===========
+*/
+$btn-border-radius: $radius-base * 0.75;
+$btn-border-radius-sm: $radius-base * 0.75;
+$btn-border-radius-lg: $radius-base * 0.75;
+
+/* 
+  ===============
+  !!!!! form !!!!!
+  ===============
+*/
+
+$input-border-radius: $radius-base * 0.75;
+$input-border-radius-sm: $radius-base * 0.75;
+$input-border-radius-lg: $radius-base * 0.75;
+
+/*
+$border-radius-none: 0px; // 0px
+$border-radius: $radius * 0.375; // 6px
+$border-radius-sm: $radius * 0.25; // 4px
+$border-radius-lg: $radius * 0.5; // 8px
+$border-radius-xl: $radius; // 16px
+$border-radius-xxl: $radius * 2; // 32px
+$border-radius-pill: $radius * 3.125; // 800px
+$border-radius-circle: 50%; // 圓
+$border-radius-12: $radius * 0.75; // 12px
+*/

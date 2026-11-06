@@ -60,3 +60,29 @@ $line-height: (
 $letter-spacing: (
   2: $letter-sapcing-2,
 );
+
+// BS5 沒有 maps
+/*
+$border-radiuses: (
+  // 6px
+  null: $border-radius,
+  // 0px
+  0: $border-radius-none,
+  // 0px
+  1: $border-radius-sm,
+  // 6px
+  2: $border-radius,
+  // 8px
+  3: $border-radius-lg,
+  // 16px
+  4: $border-radius-xl,
+  // 4px
+  5: $border-radius-xxl,
+  // 23px
+  6: $border-radius-12,
+  // 圓
+  circle: $border-radius-circle,
+  // 橢圓
+  pill: $border-radius-pill
+);
+*/
