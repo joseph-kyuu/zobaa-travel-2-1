@@ -11,5 +11,15 @@ $utilities: map-merge(
       class: ls,
       values: $letter-spacing,
     ),
+    "max-width": (
+      property: max-width,
+      class: mw,
+      values: $max-width,
+    ),
+    "min-width": (
+      property: min-width,
+      class: min-w,
+      values: $min-width,
+    ),
   )
 );

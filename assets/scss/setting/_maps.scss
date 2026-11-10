@@ -43,6 +43,28 @@ $font-sizes: map-merge(
   )
 );
 
+$spacers: map-merge(
+  $spacers,
+  (
+    // 0: 0,
+    // 1: 50px
+    // 2: 8px
+    // 3: 16px
+    // 4: 24px
+    // 5: 48px
+    // 6px
+    6: $spacer-6,
+    // 4px
+    7: $spacer-7,
+    // 10px
+    8: $spacer-8,
+    // 12px
+    9: $spacer-9,
+    // 28px
+    10: $spacer-10
+  )
+);
+
 // BS5 沒有 maps
 $line-height: (
   1: 1,
@@ -59,6 +81,17 @@ $line-height: (
 // BS5 沒有 maps
 $letter-spacing: (
   2: $letter-sapcing-2,
+);
+
+// BS5 沒有 maps
+$max-width: (
+  100: $max-width-100,
+  1: $max-width-400,
+);
+
+// BS5 沒有 maps
+$min-width: (
+  1: $min-width-400,
 );
 
 // BS5 沒有 maps
