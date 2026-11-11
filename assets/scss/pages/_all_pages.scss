@@ -1,3 +1,22 @@
 .bg-neutral-0-transparent-50 {
   background-color: $neutral-0-transparent-50;
 }
+
+// hover
+
+.link-one:hover {
+  color: $neutral-15;
+}
+
+.is-show {
+  .btn {
+    display: none;
+  }
+
+  &:hover {
+    .btn {
+      display: block;
+      min-width: 352px;
+    }
+  }
+}

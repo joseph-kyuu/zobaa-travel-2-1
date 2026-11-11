@@ -20,6 +20,7 @@ $theme-colors: map-merge(
     "semantic-alert-20": $semantic-alert-20,
     "semantic-alert-10": $semantic-alert-10,
     "neutral-100": $neutral-100,
+    "neutral-90": $neutral-90,
     "neutral-80": $neutral-80,
     "neutral-60": $neutral-60,
     "neutral-40": $neutral-40,
@@ -67,7 +68,17 @@ $spacers: map-merge(
     // 474px
     12: $spacer-12,
     // 40px
-    13: $spacer-13
+    13: $spacer-13,
+    // 120px
+    14: $spacer-14,
+    // 80px
+    15: $spacer-15,
+    // 376px
+    16: $spacer-16,
+    // 32px
+    17: $spacer-17,
+    // 20px
+    18: $spacer-18
   )
 );
 
@@ -96,6 +107,7 @@ $max-width: (
   2: $max-width-880,
   3: $max-width-228,
   4: $max-width-720,
+  5: $max-width-600,
 );
 
 // BS5 沒有 maps
