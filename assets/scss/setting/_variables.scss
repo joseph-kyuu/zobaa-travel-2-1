@@ -144,7 +144,12 @@ $spacer-8: $spacer-base * 0.625;
 $spacer-9: $spacer-base * 0.75;
 // 28px
 $spacer-10: $spacer-base * 1.75;
-
+// 300px
+$spacer-11: $spacer-base * 18.75;
+// 474px
+$spacer-12: $spacer-base * 29.625;
+// 40px
+$spacer-13: $spacer-base * 2.5;
 /* 
   ===============
   !!!!! line height !!!!!
@@ -175,6 +180,9 @@ max-width
 */
 $max-width-100: 100%;
 $max-width-400: $spacer-base * 25;
+$max-width-880: $spacer-base * 55;
+$max-width-228: $spacer-base * 14.25;
+$max-width-720: $spacer-base * 45;
 
 /*
 ===========
@@ -234,6 +242,13 @@ $input-border-radius-lg: $radius-base * 0.75;
 
 // input-placeholder-color
 $input-placeholder-color: $neutral-60;
+
+// focus
+$input-focus-border-color: $neutral-40;
+$input-focus-box-shadow: none;
+
+// border
+$input-border-color: $neutral-40;
 
 /*
 $border-radius-none: 0px; // 0px
