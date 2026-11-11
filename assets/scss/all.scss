@@ -52,7 +52,5 @@
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 我的 pages
-@import "./components/header.scss";
-@import "./components/footer.scss";
-@import "./pages/index.scss";
+@import "./pages/index";
 @import "./pages/all_pages";

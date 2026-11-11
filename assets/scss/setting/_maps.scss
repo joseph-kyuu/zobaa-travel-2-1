@@ -61,7 +61,13 @@ $spacers: map-merge(
     // 12px
     9: $spacer-9,
     // 28px
-    10: $spacer-10
+    10: $spacer-10,
+    // 300px
+    11: $spacer-11,
+    // 474px
+    12: $spacer-12,
+    // 40px
+    13: $spacer-13
   )
 );
 
@@ -87,6 +93,9 @@ $letter-spacing: (
 $max-width: (
   100: $max-width-100,
   1: $max-width-400,
+  2: $max-width-880,
+  3: $max-width-228,
+  4: $max-width-720,
 );
 
 // BS5 沒有 maps

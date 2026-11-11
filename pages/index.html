@@ -11,25 +11,62 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>index</title>
+    <title>首頁</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
-
-    <h1 class="index-title text-semantic-alert-100 ls-2">專案正常運作</h1>
-    <p>專案正常運作</p>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label"
-        >Email address</label
-      >
-      <input
-        type="email"
-        class="form-control"
-        id="exampleFormControlInput1"
-        placeholder="name@example.com"
-      />
-    </div>
-    <button type="button" class="btn btn-primary-custom btn-lg">Primary</button>
+    <main>
+      <!-- hero -->
+      <section class="bg-hero pt-11 pb-12">
+        <div class="mw-2 mx-auto">
+          <div class="mb-9 p-3 bg-primary-10 rounded-4 mw-3">
+            <h2 class="fs-5 fw-bold text-nowrap">ZOBAA 旅行推薦平台</h2>
+          </div>
+          <div class="mb-4">
+            <h1 class="fs-10 fw-bold">用旅行，收藏世界的樣子</h1>
+          </div>
+          <div class="mb-13">
+            <p class="fs-5 text-primary-80 fw-bold lh-md">
+              ZOBAA
+              整合熱門景點推薦、即時優惠、獨家行程，從比價到訂購，一次完成你的完美出遊計畫。
+            </p>
+          </div>
+          <div
+            class="d-flex p-2 border border-neutral-40 bg-neutral-0 rounded-4 mw-4"
+          >
+            <span
+              class="input-group-text me-2 p-0 border-0 bg-transparent"
+              id="addon-wrapping"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14583 15.3708 4.8875 14.1125C3.62917 12.8542 3 11.3167 3 9.5C3 7.68333 3.62917 6.14583 4.8875 4.8875C6.14583 3.62917 7.68333 3 9.5 3C11.3167 3 12.8542 3.62917 14.1125 4.8875C15.3708 6.14583 16 7.68333 16 9.5C16 10.2333 15.8833 10.925 15.65 11.575C15.4167 12.225 15.1 12.8 14.7 13.3L21 19.6L19.6 21ZM9.5 14C10.75 14 11.8125 13.5625 12.6875 12.6875C13.5625 11.8125 14 10.75 14 9.5C14 8.25 13.5625 7.1875 12.6875 6.3125C11.8125 5.4375 10.75 5 9.5 5C8.25 5 7.1875 5.4375 6.3125 6.3125C5.4375 7.1875 5 8.25 5 9.5C5 10.75 5.4375 11.8125 6.3125 12.6875C7.1875 13.5625 8.25 14 9.5 14Z"
+                  fill="#909090"
+                />
+              </svg>
+            </span>
+            <input
+              type="text"
+              class="form-control p-0 text-neutral-100 fw-normal border-0"
+              placeholder="搜尋景點、地點或城市"
+              aria-label="Username"
+              aria-describedby="addon-wrapping"
+            />
+            <button class="btn btn-sm btn-primary-custom text-nowrap">
+              開始探索旅程
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- recommend -->
+      <section></section>
+    </main>
 
     <%- include('./layout/footer'); -%>
 
