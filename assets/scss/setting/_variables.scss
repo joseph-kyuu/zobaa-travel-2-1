@@ -85,6 +85,7 @@ Neutral
 */
 
 $neutral-100: #000000;
+$neutral-90: #221f1e;
 $neutral-80: #4b4b4b;
 $neutral-60: #909090;
 $neutral-40: #ececec;
@@ -150,6 +151,17 @@ $spacer-11: $spacer-base * 18.75;
 $spacer-12: $spacer-base * 29.625;
 // 40px
 $spacer-13: $spacer-base * 2.5;
+// 120px
+$spacer-14: $spacer-base * 7.5;
+// 80px
+$spacer-15: $spacer-base * 5;
+// 376px
+$spacer-16: $spacer-base * 23.5;
+// 32px
+$spacer-17: $spacer-base * 2;
+// 20px
+$spacer-18: $spacer-base * 1.25;
+
 /* 
   ===============
   !!!!! line height !!!!!
@@ -183,6 +195,7 @@ $max-width-400: $spacer-base * 25;
 $max-width-880: $spacer-base * 55;
 $max-width-228: $spacer-base * 14.25;
 $max-width-720: $spacer-base * 45;
+$max-width-600: $spacer-base * 37.5;
 
 /*
 ===========
