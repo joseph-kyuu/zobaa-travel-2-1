@@ -85,9 +85,9 @@ $spacers: map-merge(
 // BS5 沒有 maps
 $line-height: (
   1: 1,
-  // 1.5
-  sm: $line-height-sm,
   // 1.25
+  sm: $line-height-sm,
+  // 1.5
   base: $line-height-base,
   // 2
   lg: $line-height-lg,
@@ -109,11 +109,14 @@ $max-width: (
   4: $max-width-720,
   5: $max-width-600,
   6: $max-width-306,
+  7: $max-width-300,
+  8: $max-width-746,
 );
 
 // BS5 沒有 maps
 $min-width: (
   1: $min-width-400,
+  2: $min-width-746,
 );
 
 // BS5 沒有 maps
@@ -125,7 +128,7 @@ $radius: (
   4: $border-radius-xl,
   5: $border-radius-xxl,
   6: $border-radius-24,
-  circlr: 50%,
+  circle: 50%,
   pill: $border-radius-pill,
 );
 

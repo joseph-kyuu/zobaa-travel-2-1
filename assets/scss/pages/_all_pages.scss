@@ -20,3 +20,23 @@
     }
   }
 }
+
+.active-1 {
+  background-color: $primary-100;
+  color: $neutral-0;
+}
+
+/*
+===========
+!!!!! 保留元素的捲動功能，但隱藏瀏覽器顯示的捲軸 !!!!!
+===========
+*/
+
+.no-scrollbar {
+  overflow: auto;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

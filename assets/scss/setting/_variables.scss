@@ -197,6 +197,8 @@ $max-width-228: $spacer-base * 14.25;
 $max-width-720: $spacer-base * 45;
 $max-width-600: $spacer-base * 37.5;
 $max-width-306: $spacer-base * 19.125;
+$max-width-300: $spacer-base * 18.75;
+$max-width-746: $spacer-base * 46.625;
 
 /*
 ===========
@@ -204,6 +206,7 @@ min-width
 ===========
 */
 $min-width-400: $spacer-base * 25;
+$min-width-746: $spacer-base * 46.625;
 
 /*
 ===========
@@ -277,6 +280,18 @@ $input-focus-box-shadow: none;
 
 // border
 $input-border-color: $neutral-40;
+
+/*
+===========
+!!!!! badage !!!!!
+===========
+*/
+$badge-font-size: $font-size-base;
+$badge-font-weight: $font-weight-bold;
+$badge-color: $primary-100;
+$badge-padding-y: $spacer-base * 0.5;
+$badge-padding-x: $spacer-base;
+$badge-border-radius: $border-radius-lg;
 
 /*
 $border-radius-none: 0px; // 0px
