@@ -21,5 +21,30 @@ $utilities: map-merge(
       class: min-w,
       values: $min-width,
     ),
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: $radius,
+    ),
+    "rounded-top": (
+      property: border-top-left-radius border-top-right-radius,
+      class: rounded-top,
+      values: $radius,
+    ),
+    "rounded-end": (
+      property: border-top-right-radius border-bottom-right-radius,
+      class: rounded-end,
+      values: $radius,
+    ),
+    "rounded-bottom": (
+      property: border-bottom-right-radius border-bottom-left-radius,
+      class: rounded-bottom,
+      values: $radius,
+    ),
+    "rounded-start": (
+      property: border-bottom-left-radius border-top-left-radius,
+      class: rounded-start,
+      values: $radius,
+    ),
   )
 );
