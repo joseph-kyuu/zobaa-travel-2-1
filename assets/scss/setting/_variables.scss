@@ -196,6 +196,7 @@ $max-width-880: $spacer-base * 55;
 $max-width-228: $spacer-base * 14.25;
 $max-width-720: $spacer-base * 45;
 $max-width-600: $spacer-base * 37.5;
+$max-width-306: $spacer-base * 19.125;
 
 /*
 ===========
@@ -203,6 +204,20 @@ min-width
 ===========
 */
 $min-width-400: $spacer-base * 25;
+
+/*
+===========
+!!!!! radius !!!!!
+===========
+*/
+
+$border-radius: $radius-base * 0.375;
+$border-radius-sm: $radius-base * 0.25;
+$border-radius-lg: $radius-base * 0.5;
+$border-radius-xl: $radius-base * 1;
+$border-radius-xxl: $radius-base * 2;
+$border-radius-pill: $radius-base * 50;
+$border-radius-24: $radius-base * 1.5;
 
 /* 
   ===============
