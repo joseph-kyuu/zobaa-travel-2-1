@@ -93,6 +93,7 @@ $neutral-15: #f4f4f4;
 $neutral-10: #f9f9f9;
 $neutral-0: #ffffff;
 $neutral-0-transparent-50: rgba($neutral-0, 0.5);
+$neutral-100-transparent-40: rgba($neutral-100, 0.4);
 
 /* 
   ===============
@@ -207,6 +208,7 @@ min-width
 */
 $min-width-400: $spacer-base * 25;
 $min-width-746: $spacer-base * 46.625;
+$min-width-306: $spacer-base * 19.125;
 
 /*
 ===========
@@ -221,6 +223,7 @@ $border-radius-xl: $radius-base * 1;
 $border-radius-xxl: $radius-base * 2;
 $border-radius-pill: $radius-base * 50;
 $border-radius-24: $radius-base * 1.5;
+$border-radius-20: $radius-base * 1.25;
 
 /* 
   ===============

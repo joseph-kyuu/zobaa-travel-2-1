@@ -46,5 +46,15 @@ $utilities: map-merge(
       class: rounded-start,
       values: $radius,
     ),
+    "rounded-top-end": (
+      property: border-top-right-radius,
+      class: rounded-top-end,
+      values: $radius,
+    ),
+    "rounded-bottom-start": (
+      property: border-bottom-left-radius,
+      class: rounded-bottom-start,
+      values: $radius,
+    ),
   )
 );

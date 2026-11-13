@@ -2,6 +2,10 @@
   background-color: $neutral-0-transparent-50;
 }
 
+.bg-neutral-100-transparent-40 {
+  background-color: $neutral-100-transparent-40;
+}
+
 // hover
 
 .link-one:hover {
@@ -17,6 +21,23 @@
     .btn {
       display: block;
       min-width: 352px;
+    }
+  }
+}
+
+.is-hover-two {
+  .empty-favorite {
+    display: inline-block;
+  }
+  .solid-favorite {
+    display: none;
+  }
+  &:hover {
+    .empty-favorite {
+      display: none;
+    }
+    .solid-favorite {
+      display: inline-block;
     }
   }
 }
@@ -39,4 +60,18 @@
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+/*
+===========
+!!!!! 位移 !!!!!
+===========
+*/
+
+.slider-prev {
+  transform: translate(-140%, -50%);
+}
+
+.slider-next {
+  transform: translate(140%, -50%);
 }
