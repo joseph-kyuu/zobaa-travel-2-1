@@ -33,6 +33,12 @@ $theme-colors: map-merge(
 $font-sizes: map-merge(
   $font-sizes,
   (
+    // $h1-font-size:40px
+    // $h2-font-size:32px
+    // $h3-font-size:28px
+    // $h4-font-size:24px
+    // $h5-font-size:20px
+    // $h6-font-size:16px
     // 12px
     7: $fs-7,
     // 14px
@@ -111,6 +117,7 @@ $max-width: (
   6: $max-width-306,
   7: $max-width-300,
   8: $max-width-746,
+  9: $max-width-332,
 );
 
 // BS5 沒有 maps
@@ -118,6 +125,7 @@ $min-width: (
   1: $min-width-400,
   2: $min-width-746,
   3: $min-width-306,
+  4: $min-width-300,
 );
 
 // BS5 沒有 maps
