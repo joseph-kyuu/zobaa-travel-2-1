@@ -163,6 +163,8 @@ $spacer-16: $spacer-base * 23.5;
 $spacer-17: $spacer-base * 2;
 // 20px
 $spacer-18: $spacer-base * 1.25;
+// 100px
+$spacer-19: $spacer-base * 6.25;
 
 /* 
   ===============
@@ -202,6 +204,7 @@ $max-width-306: $spacer-base * 19.125;
 $max-width-300: $spacer-base * 18.75;
 $max-width-746: $spacer-base * 46.625;
 $max-width-332: $spacer-base * 20.75;
+$max-width-40: $spacer-base * 2.5;
 
 /*
 ===========
@@ -212,6 +215,21 @@ $min-width-400: $spacer-base * 25;
 $min-width-746: $spacer-base * 46.625;
 $min-width-306: $spacer-base * 19.125;
 $min-width-300: $spacer-base * 18.75;
+$min-width-40: $spacer-base * 2.5;
+
+/*
+===========
+max-height
+===========
+*/
+$max-height-40: $spacer-base * 2.5;
+
+/*
+===========
+min-height
+===========
+*/
+$min-height-40: $spacer-base * 2.5;
 
 /*
 ===========
