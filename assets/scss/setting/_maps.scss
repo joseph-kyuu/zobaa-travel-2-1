@@ -84,7 +84,9 @@ $spacers: map-merge(
     // 32px
     17: $spacer-17,
     // 20px
-    18: $spacer-18
+    18: $spacer-18,
+    // 100px
+    19: $spacer-19
   )
 );
 
@@ -118,6 +120,7 @@ $max-width: (
   7: $max-width-300,
   8: $max-width-746,
   9: $max-width-332,
+  10: $max-width-40,
 );
 
 // BS5 沒有 maps
@@ -126,6 +129,17 @@ $min-width: (
   2: $min-width-746,
   3: $min-width-306,
   4: $min-width-300,
+  5: $min-width-40,
+);
+
+// BS5 沒有 maps
+$max-height: (
+  1: $max-height-40,
+);
+
+// BS5 沒有 maps
+$min-height: (
+  1: $min-height-40,
 );
 
 // BS5 沒有 maps
