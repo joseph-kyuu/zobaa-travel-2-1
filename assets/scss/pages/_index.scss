@@ -1,8 +1,12 @@
 .bg-hero {
-  background-image: url("/assets/images/index/hero-bg.png");
+  background-image: url("/assets/images/index/hero-bg-sm.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media (min-width: 576px) {
+    background-image: url("/assets/images/index/hero-bg.png");
+  }
 }
 
 .bg-recommand-one {
