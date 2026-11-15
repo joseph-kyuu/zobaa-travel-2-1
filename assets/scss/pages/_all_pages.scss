@@ -18,13 +18,20 @@
 
 .is-show {
   .btn {
-    display: none;
+    display: block;
+    min-width: 245px;
   }
 
-  &:hover {
+  @media (min-width: 992px) {
     .btn {
-      display: block;
-      min-width: 352px;
+      display: none;
+    }
+
+    &:hover {
+      .btn {
+        display: block;
+        min-width: 352px;
+      }
     }
   }
 }
