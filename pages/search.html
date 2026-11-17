@@ -15,7 +15,85 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <main></main>
+    <main>
+      <!-- 介紹 -->
+      <section class="p-15">
+        <!-- 麵包屑、介紹 -->
+        <div class="container">
+          <!-- 麵包屑 -->
+          <nav aria-label="breadcrumb ">
+            <ol class="breadcrumb mb-13">
+              <li class="breadcrumb-item">
+                <a href="./index.html">首頁</a>
+              </li>
+              <li class="breadcrumb-item"><a href="#">日本</a></li>
+              <li class="breadcrumb-item"><a href="#">關西</a></li>
+              <li class="breadcrumb-item active" aria-current="page">大阪</li>
+            </ol>
+          </nav>
+          <!-- 介紹 -->
+          <div>
+            <!-- 標題 -->
+            <div class="mb-2">
+              <h2 class="fs-9 fw-bold">大阪</h2>
+            </div>
+            <!-- 說明 -->
+            <div class="mb-4">
+              <p class="fs-6 text-neutral-80 fw-normal">
+                大阪，一座融合傳統與現代的城市，擁有豐富的歷史文化、熱鬧的購物街區與世界知名的美食天堂。從氣派的大阪城到霓虹閃爍的道頓堀，每一處都充滿驚喜。無論是第一次造訪，還是再次回味，大阪總能用它的熱情與魅力，讓你留下難忘回憶。
+              </p>
+            </div>
+            <!-- 圖片 -->
+            <ul class="list-unstyled row gx-2">
+              <!-- 左 -->
+              <li class="col">
+                <img
+                  class="mw-4 rounded-top-start-6 rounded-bottom-start-6"
+                  src="../assets/images/location/osaka-1.png"
+                  alt="大阪城"
+                  title="大阪城"
+                />
+              </li>
+              <!-- 右 -->
+              <li class="col">
+                <ul class="list-unstyled row g-2 row-cols-2">
+                  <li class="col">
+                    <img
+                      src="../assets/images/location/osaka-2.png"
+                      alt="跑跑人"
+                      title="跑跑人"
+                    />
+                  </li>
+                  <li class="col">
+                    <img
+                      class="rounded-top-end-6"
+                      src="../assets/images/location/osaka-3.png"
+                      alt="廟宇"
+                      title="廟宇"
+                    />
+                  </li>
+                  <li class="col">
+                    <img
+                      src="../assets/images/location/osaka-4.png"
+                      alt="通天閣"
+                      title="通天閣"
+                    />
+                  </li>
+                  <li class="col">
+                    <img
+                      class="rounded-bottom-end-6"
+                      src="../assets/images/location/osaka-5.png"
+                      alt="大阪城"
+                      title="大阪城"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- footer -->
     <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>

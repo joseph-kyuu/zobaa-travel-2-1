@@ -331,6 +331,16 @@ $badge-padding-x: $spacer-base;
 $badge-border-radius: $border-radius-lg;
 
 /*
+===========
+!!!!! breadcrumb !!!!!
+===========
+*/
+// 12px
+$breadcrumb-item-padding-x: $spacer-9;
+$breadcrumb-divider-color: $neutral-60;
+$breadcrumb-active-color: $neutral-60;
+
+/*
 $border-radius-none: 0px; // 0px
 $border-radius: $radius * 0.375; // 6px
 $border-radius-sm: $radius * 0.25; // 4px
