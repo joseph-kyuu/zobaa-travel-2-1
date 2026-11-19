@@ -45,46 +45,55 @@ $utilities: map-merge(
       property: border-radius,
       class: rounded,
       values: $radius,
+      responsive: true,
     ),
     "rounded-top": (
       property: border-top-left-radius border-top-right-radius,
       class: rounded-top,
       values: $radius,
+      responsive: true,
     ),
     "rounded-end": (
       property: border-top-right-radius border-bottom-right-radius,
       class: rounded-end,
       values: $radius,
+      responsive: true,
     ),
     "rounded-bottom": (
       property: border-bottom-right-radius border-bottom-left-radius,
       class: rounded-bottom,
       values: $radius,
+      responsive: true,
     ),
     "rounded-start": (
       property: border-bottom-left-radius border-top-left-radius,
       class: rounded-start,
       values: $radius,
+      responsive: true,
     ),
     "rounded-top-start": (
       property: border-top-left-radius,
       class: rounded-top-start,
       values: $radius,
+      responsive: true,
     ),
     "rounded-top-end": (
       property: border-top-right-radius,
       class: rounded-top-end,
       values: $radius,
+      responsive: true,
     ),
     "rounded-bottom-start": (
       property: border-bottom-left-radius,
       class: rounded-bottom-start,
       values: $radius,
+      responsive: true,
     ),
     "rounded-bottom-end": (
       property: border-bottom-right-radius,
       class: rounded-bottom-end,
       values: $radius,
+      responsive: true,
     ),
   )
 );
