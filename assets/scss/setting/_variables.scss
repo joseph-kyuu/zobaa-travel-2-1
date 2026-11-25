@@ -214,6 +214,8 @@ $max-width-40: $spacer-base * 2.5;
 $max-width-64: $spacer-base * 4;
 $max-width-480: $spacer-base * 30;
 $max-width-856: $spacer-base * 53.5;
+$max-width-200: $spacer-base * 12.5;
+$max-width-120: $spacer-base * 7.5;
 
 /*
 ===========
@@ -226,6 +228,7 @@ $min-width-306: $spacer-base * 19.125;
 $min-width-300: $spacer-base * 18.75;
 $min-width-40: $spacer-base * 2.5;
 $min-width-278: $spacer-base * 17.375;
+$min-width-120: $spacer-base * 7.5;
 
 /*
 ===========
@@ -345,6 +348,16 @@ $badge-border-radius: $border-radius-lg;
 $breadcrumb-item-padding-x: $spacer-9;
 $breadcrumb-divider-color: $neutral-60;
 $breadcrumb-active-color: $neutral-60;
+
+/*
+===========
+!!!!! table !!!!!
+===========
+*/
+$table-cell-padding-y: 1rem;
+$table-cell-padding-x: 1rem;
+$table-bg: $neutral-10;
+$table-border-color: $neutral-40;
 
 /*
 $border-radius-none: 0px; // 0px

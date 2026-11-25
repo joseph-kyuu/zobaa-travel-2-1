@@ -86,3 +86,7 @@
 .slider-next {
   transform: translate(140%, -50%);
 }
+
+.table > :not(caption) > * > * {
+  padding-right: 4rem;
+}
