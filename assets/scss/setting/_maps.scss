@@ -132,6 +132,8 @@ $max-width: (
   13: $max-width-856,
   14: $max-width-200,
   15: $max-width-120,
+  16: $max-width-584,
+  17: $max-width-824,
 );
 
 // BS5 沒有 maps
@@ -163,6 +165,7 @@ $radius: (
   2: $border-radius,
   // 8px
   3: $border-radius-lg,
+  // 16px
   4: $border-radius-xl,
   // 32px
   5: $border-radius-xxl,
