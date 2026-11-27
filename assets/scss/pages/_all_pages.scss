@@ -58,6 +58,13 @@
   color: $neutral-0;
 }
 
+// product_detail 商品說明區塊選單
+.active-2:hover {
+  border-left: 4px solid $primary-100;
+  font-weight: bold;
+  color: $primary-100;
+}
+
 /*
 ===========
 !!!!! 保留元素的捲動功能，但隱藏瀏覽器顯示的捲軸 !!!!!
@@ -107,4 +114,14 @@
 
 .list-disc {
   list-style-type: disc;
+}
+
+/*
+===========
+!!!!! border !!!!!
+===========
+*/
+
+.border-transparent {
+  border-color: transparent;
 }
