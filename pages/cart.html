@@ -15,7 +15,358 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <main></main>
+    <main class="bg-neutral-40">
+      <!-- statement -->
+      <section class="py-15">
+        <div class="container">
+          <div class="row">
+            <!-- 商品 -->
+            <div class="col-8">
+              <!-- 刪除 -->
+              <div
+                class="mb-13 py-3 px-4 bg-neutral-0 rounded-7 d-flex justify-content-between align-items-center"
+              >
+                <!-- 核取方塊 -->
+                <div class="form-check">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value="全選"
+                    id="selectAll"
+                    checked
+                  />
+                  <label
+                    class="form-check-label fs-6 text-neutral-80 fw-normal"
+                    for="selectAll"
+                  >
+                    全選
+                  </label>
+                </div>
+                <!-- 按鈕 -->
+                <button class="btn btn-lg btn-secondary-custom">
+                  刪除選中活動
+                </button>
+              </div>
+              <!-- 卡片 -->
+              <ul class="list-unstyled d-flex flex-column gap-4">
+                <li class="pt-17 pe-17 pb-3 ps-4 bg-neutral-0 rounded-7">
+                  <!-- 核取方塊、說明、數量 -->
+                  <div
+                    class="mb-3 pb-17 d-flex gap-4 border-bottom border-neutral-40"
+                  >
+                    <!-- 核取方塊 -->
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="商品"
+                        checked
+                      />
+                    </div>
+                    <!-- 說明、數量 -->
+                    <div class="d-flex gap-4">
+                      <!-- 說明 -->
+                      <div class="d-flex gap-9">
+                        <!-- 圖片 -->
+                        <img
+                          class="rounded-4"
+                          src="../assets/images/cart/cart-1.png"
+                          alt="章魚燒"
+                          title="章魚燒"
+                        />
+                        <!-- 介紹 -->
+                        <div>
+                          <div class="mb-2">
+                            <h2 class="fs-5 fw-bold">
+                              海闊天空展望台門票 HARUKAS 300
+                            </h2>
+                          </div>
+                          <div class="mb-2">
+                            <p class="fs-6 text-neutral-80 fw-normal">
+                              阿倍野展望台門票 HARUKAS 300｜附章魚燒兌換劵
+                            </p>
+                          </div>
+                          <p class="fs-6 text-neutral-80 fw-normal">
+                            兌換期內皆適用
+                          </p>
+                        </div>
+                      </div>
+                      <!-- 數量 -->
+                      <div class="d-flex align-items-center">
+                        <button class="btn border rounded-circle">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M19 13H5V11H19V13Z" fill="#4A3830" />
+                          </svg>
+                        </button>
+                        <span class="px-3">2</span>
+                        <button class="btn border rounded-circle">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              fill="#4A3830"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 編輯、刪除 -->
+                  <div class="ps-5 d-flex justify-content-between">
+                    <div class="d-flex align-items-center gap-13">
+                      <a
+                        class="fs-6 text-neutral-80 fw-normal text-decoration-underline"
+                        href="#"
+                        >編輯</a
+                      >
+                      <a
+                        class="fs-6 text-neutral-80 fw-normal text-decoration-underline"
+                        href="#"
+                        >刪除</a
+                      >
+                    </div>
+                    <p class="fs-4 fw-bold lh-md">NT$ 830</p>
+                  </div>
+                </li>
+                <li class="pt-17 pe-17 pb-3 ps-4 bg-neutral-0 rounded-7">
+                  <!-- 核取方塊、說明、數量 -->
+                  <div
+                    class="mb-3 pb-17 d-flex gap-4 border-bottom border-neutral-40"
+                  >
+                    <!-- 核取方塊 -->
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="商品"
+                        checked
+                      />
+                    </div>
+                    <!-- 說明、數量 -->
+                    <div class="d-flex gap-4">
+                      <!-- 說明 -->
+                      <div class="d-flex gap-9">
+                        <!-- 圖片 -->
+                        <img
+                          class="rounded-4"
+                          src="../assets/images/cart/cart-1.png"
+                          alt="章魚燒"
+                          title="章魚燒"
+                        />
+                        <!-- 介紹 -->
+                        <div>
+                          <div class="mb-2">
+                            <h2 class="fs-5 fw-bold">
+                              海闊天空展望台門票 HARUKAS 300
+                            </h2>
+                          </div>
+                          <div class="mb-2">
+                            <p class="fs-6 text-neutral-80 fw-normal">
+                              阿倍野展望台門票 HARUKAS 300｜附章魚燒兌換劵
+                            </p>
+                          </div>
+                          <p class="fs-6 text-neutral-80 fw-normal">
+                            兌換期內皆適用
+                          </p>
+                        </div>
+                      </div>
+                      <!-- 數量 -->
+                      <div class="d-flex align-items-center">
+                        <button class="btn border rounded-circle">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M19 13H5V11H19V13Z" fill="#4A3830" />
+                          </svg>
+                        </button>
+                        <span class="px-3">2</span>
+                        <button class="btn border rounded-circle">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              fill="#4A3830"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 編輯、刪除 -->
+                  <div class="ps-5 d-flex justify-content-between">
+                    <div class="d-flex align-items-center gap-13">
+                      <a
+                        class="fs-6 text-neutral-80 fw-normal text-decoration-underline"
+                        href="#"
+                        >編輯</a
+                      >
+                      <a
+                        class="fs-6 text-neutral-80 fw-normal text-decoration-underline"
+                        href="#"
+                        >刪除</a
+                      >
+                    </div>
+                    <p class="fs-4 fw-bold lh-md">NT$ 830</p>
+                  </div>
+                </li>
+                <li class="pt-17 pe-17 pb-3 ps-4 bg-neutral-0 rounded-7">
+                  <!-- 核取方塊、說明、數量 -->
+                  <div
+                    class="mb-3 pb-17 d-flex gap-4 border-bottom border-neutral-40"
+                  >
+                    <!-- 核取方塊 -->
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="商品"
+                        checked
+                      />
+                    </div>
+                    <!-- 說明、數量 -->
+                    <div class="d-flex gap-4">
+                      <!-- 說明 -->
+                      <div class="d-flex gap-9">
+                        <!-- 圖片 -->
+                        <img
+                          class="rounded-4"
+                          src="../assets/images/cart/cart-1.png"
+                          alt="章魚燒"
+                          title="章魚燒"
+                        />
+                        <!-- 介紹 -->
+                        <div>
+                          <div class="mb-2">
+                            <h2 class="fs-5 fw-bold">
+                              海闊天空展望台門票 HARUKAS 300
+                            </h2>
+                          </div>
+                          <div class="mb-2">
+                            <p class="fs-6 text-neutral-80 fw-normal">
+                              阿倍野展望台門票 HARUKAS 300｜附章魚燒兌換劵
+                            </p>
+                          </div>
+                          <p class="fs-6 text-neutral-80 fw-normal">
+                            兌換期內皆適用
+                          </p>
+                        </div>
+                      </div>
+                      <!-- 數量 -->
+                      <div class="d-flex align-items-center">
+                        <button class="btn border rounded-circle">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M19 13H5V11H19V13Z" fill="#4A3830" />
+                          </svg>
+                        </button>
+                        <span class="px-3">2</span>
+                        <button class="btn border rounded-circle">
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                              fill="#4A3830"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 編輯、刪除 -->
+                  <div class="ps-5 d-flex justify-content-between">
+                    <div class="d-flex align-items-center gap-13">
+                      <a
+                        class="fs-6 text-neutral-80 fw-normal text-decoration-underline"
+                        href="#"
+                        >編輯</a
+                      >
+                      <a
+                        class="fs-6 text-neutral-80 fw-normal text-decoration-underline"
+                        href="#"
+                        >刪除</a
+                      >
+                    </div>
+                    <p class="fs-4 fw-bold lh-md">NT$ 830</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- 明細 -->
+            <div class="col">
+              <div class="p-4 bg-neutral-0 rounded-7">
+                <!-- 費用明細、小計、折抵 -->
+                <div class="mb-17 pb-17 border-bottom border-neutral-40">
+                  <!-- 費用明細 -->
+                  <div class="mb-17">
+                    <h2 class="fs-4 fw-semibold">費用明細</h2>
+                  </div>
+                  <!-- 小計、折抵 -->
+                  <div>
+                    <!-- 小計 -->
+                    <div class="mb-7">
+                      <p class="d-flex justify-content-between">
+                        <span class="fs-6 text-neutral-80 fw-normal"
+                          >商品小計</span
+                        >
+                        <span class="fs-6 text-neutral-80 fw-bold"
+                          >NT$ 3600</span
+                        >
+                      </p>
+                    </div>
+                    <!-- 折抵 -->
+                    <p class="d-flex justify-content-between">
+                      <span class="fs-6 text-neutral-80 fw-normal"
+                        >優惠折抵</span
+                      >
+                      <span class="fs-6 text-primary-60 fw-bold">- 100</span>
+                    </p>
+                  </div>
+                </div>
+                <!-- 總計 -->
+                <p class="mb-17 d-flex justify-content-between align-items-end">
+                  <span class="fs-6 text-neutral-80 fw-normal">總計</span>
+                  <span class="fs-2 fw-bold lh-md">NT$ 3,500</span>
+                </p>
+                <!-- 前往結帳 -->
+                <button class="btn btn-primary-custom w-100">前往結賬</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- others -->
+      <section></section>
+    </main>
     <!-- footer -->
     <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>
